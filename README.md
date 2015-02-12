@@ -25,7 +25,7 @@ That said, I think it would be fun to implement the following:
 License note
 ------------
 
-I'm using the MIT license because I'm nice and lazy. Excetpion is the PDF documentation of the LegRC protocol I've included in the repocitory, which of course is property of the Lego Group.
+I'm using the MIT license because I'm nice and lazy. Excetpion is the PDF documentation of the LegRC protocol I've included in the repository, which of course is property of the Lego Group.
 
 
 
