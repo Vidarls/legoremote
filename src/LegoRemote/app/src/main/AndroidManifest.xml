@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vidarls.legoremote" >
+
+    <uses-permission android:name="android.permission.TRANSMIT_IR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Control"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".ChannelOne"
+            android:exported="false" >
+        </service>
+        <service
+            android:name=".ChannelTwo"
+            android:exported="false" >
+        </service>
+        <service
+            android:name=".ChannelThree"
+            android:exported="false" >
+        </service>
+        <service
+            android:name=".ChannelFour"
+            android:exported="false" >
+        </service>
+    </application>
+
+</manifest>
