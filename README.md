@@ -22,6 +22,10 @@ That said, I think it would be fun to implement the following:
 * Web based remote control UI, hosted on the android device accesible from device on same LAN as the Android device.
 * Stream video from phone to web UI for real remote operation outside IR range.
 
+License note
+------------
+
+I'm using the MIT license because I'm nice and lazy. Excetpion is the PDF documentation of the LegRC protocol I've included in the repocitory, which of course is property of the Lego Group.
 
 
 
